@@ -1,0 +1,61 @@
+body {
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container {
+    width: 680;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.boxinfometeo {
+    margin-top: 150px;
+}
+
+#city {
+    background-color: rgba(42, 131, 180, 0.75);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#temp {
+    background-color: rgba(42, 131, 180, 0.75);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#humidity {
+    background-color: rgba(42, 131, 180, 0.75);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#wind {
+    background-color: rgba(42, 131, 180, 0.75);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
